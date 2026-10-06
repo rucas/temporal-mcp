@@ -18,6 +18,10 @@ export {
 } from './codec-endpoint.ts';
 
 export {
+	decodeHistoryPayloads,
+	getClientPayloadCodecs,
+} from './history-payloads.ts';
+export {
 	getToolContract,
 	getAllToolContracts,
 	assertToolAvailable,
