@@ -1,4 +1,8 @@
-export { TemporalConnectionManager } from './connection.ts';
+export {
+	TemporalConnectionManager,
+	createCodecDataConverter,
+} from './connection.ts';
+export type { CodecSecurityConfig } from './connection.ts';
 
 export { RemotePayloadCodec } from './payload-codec.ts';
 export type { RemotePayloadCodecOptions } from './payload-codec.ts';
