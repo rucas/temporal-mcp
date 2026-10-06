@@ -1,4 +1,18 @@
 export { TemporalConnectionManager } from './connection.ts';
+
+export { RemotePayloadCodec } from './payload-codec.ts';
+export type { RemotePayloadCodecOptions } from './payload-codec.ts';
+
+export { PayloadDecoder } from './payload-decoder.ts';
+export type { DecodedPayload } from './payload-decoder.ts';
+
+export {
+	DEFAULT_CODEC_TIMEOUT_MS,
+	codecEndpointBlockedReason,
+	isPrivateAddress,
+	postToCodecEndpoint,
+} from './codec-endpoint.ts';
+
 export {
 	getToolContract,
 	getAllToolContracts,
